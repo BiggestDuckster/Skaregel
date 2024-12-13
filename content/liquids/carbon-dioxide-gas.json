@@ -1,0 +1,10 @@
+{
+  "name": Carbon Dioxide,
+  "description": "Most abundant gas found on Skaregel.",
+  "temperature": 0.2,
+  "viscosity": 0.01,
+  "gas": true,
+  "lightColor": "#3a3a3aFF",
+  "color": "#3a3a3aFF",
+  "research": "null"
+}

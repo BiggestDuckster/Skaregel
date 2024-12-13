@@ -1,0 +1,38 @@
+{
+	"type": "GenericCrafter",
+	"name": "Carbon Compressor",
+	"description": "Compresses carbon dioxide into charcoal",
+	"size": 2,
+	"hasItems": false,
+	"hasLiquids": true,
+	"hasPower": true,
+	"itemCapacity": 10,
+	"outputItem": "charcoal-item/1",
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+		"prefix": "-top",
+		"layer": 100,
+        "flameColor": "fae5ffFF",
+		"flameRadius": 2
+		"flameRadiusIn": 0.5
+      }
+    ]
+  },
+	"craftEffect": "smoke",
+	"consumes": {
+		"liquids": [
+		"carbon-dioxide-gas/0.0833333333333333"
+		],
+	},
+	"requirements": [
+	"lead/100"
+	],
+	"category": "crafting",
+	"researcg": null
+}

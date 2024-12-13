@@ -1,0 +1,40 @@
+{
+	"type": "GenericCrafter",
+	"name": "Graphitic Compressor",
+	"description": "Compresses charcoal into dense graphite lumps.",
+	"size": 3,
+	"hasItems": true,
+	"hasLiquids": false,
+	"hasPower": true,
+	"itemCapacity": 10,
+	"outputItem": "graphite/1",
+	"drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault",
+		"layer": 100
+      },
+      {
+        "type": "DrawFlame",
+		"prefix": "-top",
+		"layer": 100,
+        "flameColor": "fae5ffFF",
+		"flameRadius": 2
+		"flameRadiusIn": 0.5
+      }
+    ]
+  },
+	"craftEffect": "smoke",
+	"consumes": {
+		"items": [
+		"charcoal-item/5"
+		],
+		"power": 1
+	},
+	"requirements": [
+	"lead/100"
+	],
+	"category": "crafting",
+	"researcg": null
+}

@@ -1,0 +1,7 @@
+{
+	"name": "Rubble",
+	"description": "Alternative to sand. Formed up from dust clumping up into a solid matter.",
+	"color": "#b9b1a3FF",
+	"hardness": 0.5,
+	"cost": 0.1,
+}

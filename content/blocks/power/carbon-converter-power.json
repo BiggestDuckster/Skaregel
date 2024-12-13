@@ -1,0 +1,32 @@
+{
+	"type": "SolarGenerator",
+	"name": "Carbon Converter",
+	"description": "Converts ambient carbon dioxide in the air into minute amounts of power.",
+	"health": 40,
+	"hasPower": true,
+	"outputsPower": true,
+	"powerProduction": 0.0333333333333333,
+	"research": null,
+	"category": "power",
+	"drawer": [
+	{
+		"type": "DrawDefault"
+	}
+    {
+      "type": "DrawGlowRegion",
+      "suffix": "-extension",  // if the sprite is yourblock-glow use \"-glow\" instead."
+      "alpha": 0.9,
+      "glowScale": 10,
+      "glowIntensity": 0.4,
+      "rotate": false,
+      "rotateSpeed": 0,
+      "layer": 100,
+      "color": "ffffff", // You knew what this does.",
+      "region": null
+    }
+  ],
+	"requirements": [
+		"mixed-metal-item/50",
+		"scrap/70"
+	]
+}

@@ -1,0 +1,68 @@
+{
+	// General
+	"name": "Dust",
+	"description": "Made in Desolate cores.",
+	
+	// Unit
+	"type": "flying",
+	"speed": 3,
+	"outlineColor": "#403735FF",
+	"accel": 0.125,
+	"drag": 0.0625,
+	"mineSpeed": 5,
+	"mineTier": 2,
+	"health": 270,
+	"itemCapacity": 10,
+	"rotateSpeed": 21,
+	"hitSize": 3,
+	"buildPower": 1,
+	"armor": 0,
+	"engineSize": 0,
+	"useEngineElevation": false,
+	"engineLayer": 100,
+	"buildSpeed": 1.25,
+	"rotateShooting": true,
+	"commandLimit": 8,
+	"engines": [
+  {
+    "x": 6,
+    "y": -6,
+    "radius": 1.5,
+    "rotation": -90,
+  },
+  {
+    "x": -6,
+    "y": -6,
+    "radius": 1.5,
+	"rotation": -90,
+  }
+]
+	"flying": true,
+	"weapons": [
+    {
+      "name": "standard-coregun",
+      "reload": 15,
+      "x": 0,
+      "y": 2,
+      "top": false,
+      "mirror": false,
+      "rotate": false,
+      "shots": 5,
+      "inaccuracy": 0.5,
+      "velocityRnd": 0.25,
+      "shootY": 3,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 5,
+		"shootSound": "pow",
+        "speed": 8,
+        "width": 4,
+        "height": 7,
+        "shootEffect": "shootSmall",
+        "tileDamageMultiplier": 0.07,
+        "lifetime": 30,
+        "sprite": "bullet",
+      }
+    }
+  ]
+}

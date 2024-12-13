@@ -1,0 +1,7 @@
+{
+	"name": "Oxicopper",
+	"description": "Oxidized copper. Weaker and is less conductive than regular copper",
+	"color": "#a88872FF",
+	"hardness": 0.5,
+	"cost": 0.4,
+}

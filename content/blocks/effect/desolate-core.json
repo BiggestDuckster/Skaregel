@@ -1,0 +1,26 @@
+{
+	// Block Settings
+	"type": "CoreBlock",
+	"name": "Core: Desolate",
+	"description": "Simple core meant to be produced quickly. Small but reliable, isn't armored.",
+	"health": 3000,
+	"size": 3,
+	"hasItems": true,
+	"itemCapacity": 2000,
+	"alwaysUnlocked": true,
+	"hasColor": true,
+	"hasItems": true,
+	"unitCapModifier": +10,
+	
+	// Core settings
+	"thrusterLength": 3,
+	"isFirstTier": true,
+	"unitType": "dust-unit",
+	
+	// Other
+	"research": "null",
+	"category": "effect",
+	"requirements": [
+	"copper/20"
+	]
+}
